@@ -12,13 +12,12 @@ if (string.IsNullOrEmpty(imagePath) || !File.Exists(imagePath))
 
 using (Parser parser = new Parser(imagePath))
 {
-    // Извлеките все QR-коды.
+
     IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
 
-    // Итерация
     foreach (PageBarcodeArea barcode in barcodes)
     {
-        // Распечатайте значения идентифицированного QR-кода
+
         Console.WriteLine(barcode.CodeTypeName + " Code Value: " + barcode.Value);
     }
 }    
