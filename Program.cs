@@ -6,7 +6,7 @@ string imagePath = Console.ReadLine();
 
 if (string.IsNullOrEmpty(imagePath) || !File.Exists(imagePath))
 {
-    Console.WriteLine("Файл не найден или путь не указан.");
+    Console.WriteLine("Файл не найден или путь не указан);
     return;
 }
 
