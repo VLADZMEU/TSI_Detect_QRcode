@@ -51,3 +51,4 @@ using (Parser parser = new Parser(imagePath))
     }
 }
 ```
+# The new version adds English and Russian languages
