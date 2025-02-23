@@ -1,0 +1,20 @@
+<root>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="LoadImage" xml:space="preserve">
+    <value>Загрузить картинку</value>
+  </data>
+  <data name="EnterImagePath" xml:space="preserve">
+    <value>Введите путь к изображению с QR-кодом:</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Файл не найден или путь не указан.</value>
+  </data>
+  <data name="QRCodeNotFound" xml:space="preserve">
+    <value>QR-код не найден.</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Попробовать снова? (y/n)</value>
+  </data>
+</root>

@@ -1,0 +1,20 @@
+<root>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="LoadImage" xml:space="preserve">
+    <value>Load Image</value>
+  </data>
+  <data name="EnterImagePath" xml:space="preserve">
+    <value>Enter the path to the image with the QR code:</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not founded.</value>
+  </data>
+  <data name="QRCodeNotFound" xml:space="preserve">
+    <value>QR not found</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Try again (y/n)</value>
+  </data>
+</root>
